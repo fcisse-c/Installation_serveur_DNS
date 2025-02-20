@@ -55,7 +55,7 @@
     ```sh
     nslookup ns.wilders.lan
     nslookup machine.wilders.lan
-    nslookup dns.wilders.lan
+    nslookup wilders.lan
     ```
 3. **Tester la résolution inverse** (remplacez `<IP_de_votre_serveur>` par l'adresse IP de votre serveur) :
     ```sh
@@ -69,9 +69,7 @@
 2. **Ouvrir une invite de commandes sur la machine client**.
 3. **Tester la résolution de nom** :
     ```sh
-    nslookup ns.wilders.lan
     nslookup machine.wilders.lan
-    nslookup dns.wilders.lan
     ```
     [![dns_server_machineClient](https://github.com/fcisse-c/Installation_serveur_DNS/blob/main/dns_server_machineClient.png)
 4. **Tester la résolution inverse** (remplacez `<IP_de_votre_serveur>` par l'adresse IP de votre serveur) :
