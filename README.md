@@ -47,6 +47,7 @@
 
 ## Tests de la configuration DNS
 
+
 ### Vérifier la résolution de nom et la résolution inverse depuis le serveur
 
 1. **Ouvrir une invite de commandes sur le serveur**.
@@ -61,7 +62,7 @@
     nslookup <IP_de_votre_serveur>
     nslookup 172.20.0.10
     ```
-
+[![dns](https://github.com/fcisse-c/Installation_serveur_DNS/blob/main/dns.png)
 ### Vérifier la résolution de nom et la résolution inverse depuis une machine client
 
 1. **Configurer la machine client pour utiliser le serveur DNS**.
@@ -72,11 +73,12 @@
     nslookup machine.wilders.lan
     nslookup dns.wilders.lan
     ```
+    [![dns_server_machineClient](https://github.com/fcisse-c/Installation_serveur_DNS/blob/main/dns_server_machineClient.png)
 4. **Tester la résolution inverse** (remplacez `<IP_de_votre_serveur>` par l'adresse IP de votre serveur) :
     ```sh
     nslookup <IP_de_votre_serveur>
     nslookup 172.20.0.10
     ```
-
+[![test_dns_machineCliente](https://github.com/fcisse-c/Installation_serveur_DNS/blob/main/test_dns_machineCliente.png)
 
 
