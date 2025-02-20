@@ -71,7 +71,6 @@
     ```sh
     nslookup machine.wilders.lan
     ```
-    [![dns_server_machineClient](https://github.com/fcisse-c/Installation_serveur_DNS/blob/main/dns_server_machineClient.png)
 4. **Tester la résolution inverse** (remplacez `<IP_de_votre_serveur>` par l'adresse IP de votre serveur) :
     ```sh
     nslookup <IP_de_votre_serveur>
