@@ -78,10 +78,5 @@
     nslookup 172.20.0.10
     ```
 
-## Critères d'acceptation
 
-1. **Résolution de nom et résolution inverse** depuis le serveur et une machine client fonctionnent correctement.
-2. **Le serveur est joignable via deux noms distincts** (`ns.wilders.lan` et `dns.wilders.lan`).
-
-Si toutes les vérifications réussissent, cela signifie que le serveur DNS est configuré correctement et fonctionne comme prévu.
 
